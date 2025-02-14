@@ -27,7 +27,7 @@ html, body {
 
 /* Footer stays at the bottom */
 .footer {
-    background-color: red; /* #f8f9fa; /* Light gray (Bootstrap default) */
+    background-color: #f8f9fa; /* Light gray (Bootstrap default) */
     padding: 10px 0;
     text-align: center;
 }
