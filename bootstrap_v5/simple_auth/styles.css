@@ -1,0 +1,33 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ensure the body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+/* Wrapper for the entire page */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+/* Main content should expand */
+.main-content {
+    flex: 1; /* Takes available space */
+}
+
+/* Footer stays at the bottom */
+.footer {
+    background-color: red; /* #f8f9fa; /* Light gray (Bootstrap default) */
+    padding: 10px 0;
+    text-align: center;
+}
